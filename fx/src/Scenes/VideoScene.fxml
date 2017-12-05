@@ -35,32 +35,33 @@
             <Separator prefWidth="572.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
             <VBox alignment="CENTER" prefHeight="311.0" prefWidth="68.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
               <children>
-                <Button cancelButton="false" defaultButton="false" depthTest="ENABLE" maxHeight="-1.0" maxWidth="-1.0" minHeight="20.0" minWidth="70.0" mnemonicParsing="false" text="HOME" textFill="#330000" textOverrun="LEADING_ELLIPSIS" VBox.vgrow="NEVER">
+                <Text stroke="TRANSPARENT" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
                   <font>
-                    <Font size="12.0" />
+                    <Font size="16.0" fx:id="x1" />
                   </font>
-                  <VBox.margin>
-                    <Insets />
-                  </VBox.margin>
-                </Button>
+                </Text>
                 <Separator prefWidth="200.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Video">
+                  <font>
+                    <Font name="System Bold" size="16.0" />
+                  </font>
+                </Text>
                 <Separator halignment="LEFT" prefWidth="200.0" />
-                <Button fx:id="videoButton" minHeight="21.0" minWidth="70.0" mnemonicParsing="false" text="Video">
-                  <font>
-                    <Font name="System Bold" size="12.0" />
-                  </font>
-                </Button>
+                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="Quiz" />
                 <Separator prefWidth="200.0" />
-                <Button fx:id="quizButton" minHeight="21.0" minWidth="70.0" mnemonicParsing="false" onAction="#callToQuiz" text="Quiz" />
+                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="Results" />
                 <Separator prefWidth="200.0" />
-                <Button id="quizButton" minHeight="21.0" minWidth="70.0" mnemonicParsing="false" onAction="#callToQuiz" text="Results" />
               </children>
             </VBox>
             <GridPane fx:id="innerGrid" alignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
               <children>
-                <MediaView fx:id="videoViewer" fitHeight="260.0" fitWidth="300.0" preserveRatio="false" x="50.0" y="50.0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
                 <Button fx:id="playButton" mnemonicParsing="false" onAction="#plausePlay" text="PLAY / PLAUSE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
                 <Button fx:id="quizButton" mnemonicParsing="false" onAction="#callToQuiz" text="Start Quiz" visible="true" GridPane.columnIndex="0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                <ImageView id="" fitHeight="250.0" fitWidth="0.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                  <image>
+                    <Image url="@../error2.PNG" />
+                  </image>
+                </ImageView>
               </children>
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

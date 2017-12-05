@@ -36,21 +36,22 @@
             <Separator prefWidth="572.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
             <VBox alignment="CENTER" prefHeight="311.0" prefWidth="68.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
               <children>
-                <Button cancelButton="false" defaultButton="false" depthTest="ENABLE" maxHeight="-1.0" maxWidth="-1.0" minHeight="20.0" minWidth="70.0" mnemonicParsing="false" text="HOME" textFill="#330000" textOverrun="LEADING_ELLIPSIS" VBox.vgrow="NEVER">
+                <Text stroke="TRANSPARENT" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
                   <font>
-                    <Font name="System Bold" size="12.0" />
+                    <Font name="System Bold" size="16.0" />
                   </font>
-                  <VBox.margin>
-                    <Insets fx:id="x1" />
-                  </VBox.margin>
-                </Button>
+                </Text>
                 <Separator prefWidth="200.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Video">
+                  <font>
+                    <Font size="16.0" fx:id="x1" />
+                  </font>
+                </Text>
                 <Separator halignment="LEFT" prefWidth="200.0" />
-                <Button fx:id="videoButton" minHeight="21.0" minWidth="70.0" mnemonicParsing="false" text="Video" />
+                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="Quiz" />
                 <Separator prefWidth="200.0" />
-                <Button minHeight="21.0" minWidth="70.0" mnemonicParsing="false" onAction="#callToQuiz" text="Quiz" />
+                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="Results" />
                 <Separator prefWidth="200.0" />
-                <Button minHeight="21.0" minWidth="70.0" mnemonicParsing="false" onAction="#callToResults" text="Results" />
               </children>
             </VBox>
             <GridPane alignment="CENTER" prefHeight="190.0" prefWidth="481.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
