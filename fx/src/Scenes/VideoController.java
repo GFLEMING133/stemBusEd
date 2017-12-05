@@ -1,16 +1,9 @@
 package Scenes;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.geometry.Pos;
-import javafx.geometry.Rectangle2D;
-import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-import javafx.scene.media.MediaView;
 import javafx.scene.control.Button;
-
-import javax.swing.text.html.ImageView;
 import java.nio.file.Paths;
 import java.util.Timer;
 
@@ -28,9 +21,9 @@ public class VideoController {
     private boolean playing = false;
     private MediaTests mt = new MediaTests();
     private MediaPlayer player = new MediaPlayer(new Media(Paths.get("src\\jamaicaAudio.mp3").toUri().toString()));
+
     double totalTime = 0;
     double pauseTime = 0;
-
     public void initialize(MediaTests mediaTests) {
         mt = mediaTests;
         System.out.println("Started the video controller");
@@ -57,12 +50,10 @@ public class VideoController {
             checkTime(totalTime-pauseTime);
         }
     }
-
     private void callToQuiz() {
         System.out.println("No problems with pressing button...");
         mt.moveToQuizScene();
     }
-
     private void checkTime(double timeSec)
     {
         time = new MyTimerClass();
