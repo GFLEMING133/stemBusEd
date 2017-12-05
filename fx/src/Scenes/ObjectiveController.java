@@ -12,6 +12,7 @@ public class ObjectiveController {
         mt = mediatest; //assign the reference of mediatest to mt
         System.out.println("Started the objective controller");
     }
+
     //TODO Convert sidebar to not buttons -- text instead
 
     public void callToVideo(ActionEvent actionEvent) {

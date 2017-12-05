@@ -69,8 +69,13 @@
       <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Scenes/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="358">
               <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+=======
+            <state relative-caret-position="-250">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +99,13 @@
       <file leaf-file-name="MyTimerClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/MyTimerClass.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="114">
               <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+=======
+            <state relative-caret-position="740">
+              <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
               <folding />
             </state>
           </provider>
@@ -130,8 +140,13 @@
       <file leaf-file-name="MediaTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/MediaTests.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="274">
               <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+=======
+            <state relative-caret-position="420">
+              <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,8 +167,13 @@
       <file leaf-file-name="ObjectiveController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/ObjectiveController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="340">
               <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+=======
+            <state relative-caret-position="280">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,6 +181,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ObjectiveScene.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/ObjectiveScene.fxml">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,6 +191,18 @@
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
+=======
+      <file leaf-file-name="bluemango.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bluemango.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transparnntbluemangoes.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/transparnntbluemangoes.png">
+          <provider selected="true" editor-type-id="images">
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
             <state />
           </provider>
         </entry>
@@ -227,18 +260,30 @@
         <option value="$PROJECT_DIR$/src/Scenes/ResultsController.java" />
         <option value="$PROJECT_DIR$/src/Scenes/MyTimerClass.java" />
         <option value="$PROJECT_DIR$/src/Scenes/QuizController.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Scenes/introController.java" />
         <option value="$PROJECT_DIR$/src/Scenes/ObjectiveController.java" />
         <option value="$PROJECT_DIR$/src/Scenes/ObjectiveScene.fxml" />
         <option value="$PROJECT_DIR$/src/Scenes/QuizScene.fxml" />
         <option value="$PROJECT_DIR$/src/Scenes/MediaTests.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Scenes/MediaTests.java" />
+        <option value="$PROJECT_DIR$/src/Scenes/introController.java" />
+        <option value="$PROJECT_DIR$/src/Scenes/ObjectiveController.java" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
         <option value="$PROJECT_DIR$/src/Scenes/VideoController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="width" value="964" />
+=======
+    <option name="x" value="933" />
+    <option name="y" value="38" />
+    <option name="width" value="969" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
     <option name="height" value="1040" />
   </component>
   <component name="ProjectReloadState">
@@ -259,10 +304,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+=======
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +333,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,9 +353,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
+=======
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Telegram Desktop/SE1021_checkStyle - v3.xml" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -527,7 +585,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12916666" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13166311" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -540,6 +602,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -603,6 +666,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Scenes/introController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -612,6 +676,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Scenes/IntroScene.fxml">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Scenes/IntroScene.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -622,13 +692,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java" />
     <entry file="file://$PROJECT_DIR$/names.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -654,13 +718,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java" />
     <entry file="file://$PROJECT_DIR$/names.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -697,13 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java" />
     <entry file="file://$PROJECT_DIR$/names.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -740,13 +792,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java" />
     <entry file="file://$PROJECT_DIR$/names.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -807,41 +853,11 @@
     <entry file="file://$PROJECT_DIR$/src/OldScenes.java" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/src/Scenes/Driver.java" />
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/SceneDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/VideoPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OldScenes/Quiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/SignIn.java" />
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/SceneDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/MediaJumble.java" />
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/VideoPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/OldScenes/Quiz.java" />
     <entry file="file://$PROJECT_DIR$/src/Scenes/ResultsScene.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -897,6 +913,7 @@
           <folding />
         </state>
       </provider>
+<<<<<<< HEAD
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
@@ -908,6 +925,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/transparnntbluemangoes.png">
       <provider selected="true" editor-type-id="images">
+=======
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/QuizScene.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
         <state />
       </provider>
     </entry>
@@ -949,6 +971,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Scenes/ObjectiveController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -956,13 +979,24 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/mcTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Scenes/MediaTests.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="274">
           <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+=======
+        <state relative-caret-position="420">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -982,8 +1016,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Scenes/VideoController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="358">
           <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+=======
+        <state relative-caret-position="280">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bluemangoeshorizontal.png" />
+    <entry file="file://$PROJECT_DIR$/src/bluemango.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transparnntbluemangoes.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/IntroScene.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+>>>>>>> 17bdd8f32ccc37d897125e0abfdb7cc47884db9c
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

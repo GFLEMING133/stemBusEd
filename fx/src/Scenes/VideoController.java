@@ -9,8 +9,6 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 import javafx.scene.control.Button;
-import javafx.geometry.Rectangle2D;
-import javafx.util.Duration;
 
 import javax.swing.text.html.ImageView;
 import java.nio.file.Paths;
@@ -45,8 +43,7 @@ public class VideoController {
             }
         });
     }
-
-    public void plausePlay() {
+    private void plausePlay() {
         if (playing) {
             player.pause();
             playing = false;
@@ -61,12 +58,12 @@ public class VideoController {
         }
     }
 
-    public void callToQuiz() {
+    private void callToQuiz() {
         System.out.println("No problems with pressing button...");
         mt.moveToQuizScene();
     }
 
-    public void checkTime(double timeSec)
+    private void checkTime(double timeSec)
     {
         time = new MyTimerClass();
         time.getObject(this);
