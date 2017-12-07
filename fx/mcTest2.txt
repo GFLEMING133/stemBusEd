@@ -1,0 +1,15 @@
+1. How many different hats does Shefner wear?
+a) 0, he doesn't wear hats	Wrong, he only wears 2 different hats
+b) 1	Wrong, he only wears 2 different hats
+c) 2	Correct
+d) 3+	Wrong, he only wears 2 different hats
+2. Who's Ethan's worst teacher this trimester?
+a) Carriere	What!? It's clearly Rolland
+b) Mayer	What!? It's clearly Rolland
+c) Rolland	Correct
+d) Jones	What!? It's clearly Rolland
+3. Which one of these variable names for an array of ints is Ethan most likely to use?
+a) numbers	Wrong, too long of a name
+b) values	Fake news
+c) n	Possibly, but I don't think I'm that bad of a programmer
+d) ans	Correct

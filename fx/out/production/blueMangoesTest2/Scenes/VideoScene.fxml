@@ -57,11 +57,7 @@
               <children>
                 <Button fx:id="playButton" mnemonicParsing="false" onAction="#plausePlay" text="PLAY / PLAUSE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
                 <Button fx:id="quizButton" mnemonicParsing="false" onAction="#callToQuiz" text="Start Quiz" visible="true" GridPane.columnIndex="0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-                <ImageView id="" fitHeight="250.0" fitWidth="0.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
-                  <image>
-                    <Image url="@../error2.PNG" />
-                  </image>
-                </ImageView>
+                <ImageView id="" fx:id="imView" fitHeight="250.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
               </children>
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

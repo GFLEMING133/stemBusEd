@@ -1,0 +1,9 @@
+V	src\\jamaicaAudio.mp3
+I	src\\error2.png
+Q	mcTest.txt
+V	src\\pfVoiceOver.wav
+I	src\\dsotm.jpeg
+Q	mcTest2.txt
+V	src\\rushVoiceOver.wav
+I	src\\stupidWebsite.jpeg
+Q	mcTest3.txt
