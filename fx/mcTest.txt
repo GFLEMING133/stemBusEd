@@ -13,38 +13,3 @@ a) I hate it	Correct
 b) It's okay	Wrong, JavaFX is clearly the worst programming language ever invented and I hate it
 c) I like it	Wrong, JavaFX is clearly the worst programming language ever invented and I hate it
 d) I love it	Wrong, you should be admitted to a mental institution if you think that
-4. How many different hats does Shefner wear?
-a) 0, he doesn't wear hats	Wrong, he only wears 2 different hats
-b) 1	Wrong, he only wears 2 different hats
-c) 2	Correct
-d) 3+	Wrong, he only wears 2 different hats
-5. Who's Ethan's worst teacher this trimester?
-a) Carriere	What!? It's clearly Rolland
-b) Mayer	What!? It's clearly Rolland
-c) Rolland	Correct
-d) Jones   	What!? It's clearly Rolland
-6. Which one of these variable for an array of ints names is Ethan most likely to use?
-a) numbers 	Wrong, too long of a name
-b) values	Fake news
-c) n	Possibly, but I don't think I'm that bad of a programmer
-d) ans	Correct
-7. Why is Ethan going to fail SE 2?
-a) He uses magic numbers	True, but it's all of the above
-b) He can't type	True, but it's all of the above
-c) He has bad variable names	True, but it's all of the above
-d) All of the above	Correct
-8. Which is the best reason for why Ethan is on Blue Mangoes?
-a) I want an A	Correct
-b) I like helping people	Hahahaha did you actually think that! I just want a good grade
-c) I thought it would be cool at first and don't want to face Shef's wrath if I quit	True, but I want a good grade more
-d) I want to go to Panama	Hahahaha did you actually think that! I just want a good grade
-9. Why am I writing all these questions?
-a) I am stuck on a FX problem and need a break	No I'm a perfect programmer, I don't get stuck on problems
-b) I am bored and have nothing better to do	Correct
-c) I like writing these questions	nope
-d) I don't feel like doing homework	Normally this would be the answer, but I have no homework yet
-10. I can't think of any more questions, so just guess a number?
-a) 2	False
-b) 5	False
-c) 7	Correct
-d) 9	False

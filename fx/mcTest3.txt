@@ -1,0 +1,20 @@
+1. Why is Ethan going to fail SE 2?
+a) He uses magic numbers	True, but it's all of the above
+b) He can't type	True, but it's all of the above
+c) He has bad variable names	True, but it's all of the above
+d) All of the above	Correct
+2. Which is the best reason for why Ethan is on Blue Mangoes?
+a) I want an A	Correct
+b) I like helping people	Hahahaha did you actually think that! I just want a good grade
+c) I thought it would be cool at first and don't want to face Shef's wrath if I quit	True, but I want a good grade more
+d) I want to go to Panama	Hahahaha did you actually think that! I just want a good grade
+3. Why am I writing all these questions?
+a) I am stuck on a FX problem and need a break	No I'm a perfect programmer, I don't get stuck on problems
+b) I am bored and have nothing better to do	Correct
+c) I like writing these questions	nope
+d) I don't feel like doing homework	Normally this would be the answer, but I have no homework yet
+4. I can't think of any more questions, so just guess a number?
+a) 2	False
+b) 5	False
+c) 7	Correct
+d) 9	False

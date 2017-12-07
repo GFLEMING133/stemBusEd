@@ -29,14 +29,15 @@ public class QuizController {
     private boolean wasSelected4 = false;
 
     private MediaTests mt = new MediaTests();
-    private String path = mt.quizPath;
+    private String path = "";
     private int correctAnswer = -1;
     private Scanner in;
     private int numCorrect = 0;
     private String reasons[] = new String[4];
     private int totalQ = 0;
 
-    public void initialize(MediaTests mediaTests) {
+    public void initialize(MediaTests mediaTests, String quizPath) {
+        path = quizPath;
         mt = mediaTests;
         System.out.println("Started the quiz controller");
         nextButton.setText("Next Question");
@@ -91,7 +92,11 @@ public class QuizController {
         else
         {
             mt.numCorrect = numCorrect;
-            mt.totalQuestions = totalQ;
+            mt.questions = totalQ;
+
+            mt.numCorrectTotal += numCorrect;
+            mt.totalQuestions += totalQ;
+
             System.out.println("Correct: "+numCorrect);
             mt.moveToResultsScene();
         }

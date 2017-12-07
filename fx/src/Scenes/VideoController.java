@@ -4,13 +4,15 @@ import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 import javafx.scene.control.Button;
+import javafx.geometry.Rectangle2D;
+import javafx.util.Duration;
 
-import javax.swing.text.html.ImageView;
 import java.nio.file.Paths;
 import java.util.Timer;
 
@@ -22,16 +24,21 @@ public class VideoController {
     @FXML GridPane innerGrid;
     @FXML Button quizButton;
     @FXML Button playButton;
+    @FXML ImageView imView = new ImageView();
 
     Timer t1 = new Timer();
     MyTimerClass time;
     private boolean playing = false;
     private MediaTests mt = new MediaTests();
-    private MediaPlayer player = new MediaPlayer(new Media(Paths.get("src\\jamaicaAudio.mp3").toUri().toString()));
+    private MediaPlayer player;
     double totalTime = 0;
     double pauseTime = 0;
 
-    public void initialize(MediaTests mediaTests) {
+    public void initialize(MediaTests mediaTests, String videoPath, String imagePath) {
+        Image image = new Image(Paths.get(imagePath).toUri().toString());
+        imView.setImage(image);
+
+        player = new MediaPlayer(new Media(Paths.get(videoPath).toUri().toString()));
         mt = mediaTests;
         System.out.println("Started the video controller");
         quizButton.setVisible(false);
@@ -43,7 +50,8 @@ public class VideoController {
             }
         });
     }
-    private void plausePlay() {
+
+    public void plausePlay() {
         if (playing) {
             player.pause();
             playing = false;
@@ -58,12 +66,12 @@ public class VideoController {
         }
     }
 
-    private void callToQuiz() {
+    public void callToQuiz() {
         System.out.println("No problems with pressing button...");
         mt.moveToQuizScene();
     }
 
-    private void checkTime(double timeSec)
+    public void checkTime(double timeSec)
     {
         time = new MyTimerClass();
         time.getObject(this);
