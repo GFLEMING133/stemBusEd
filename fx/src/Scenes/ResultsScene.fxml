@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
+<?import java.net.*?>
 <?import javafx.geometry.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
@@ -22,7 +23,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Scenes.ResultsController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Scenes.ResultsController">
   <children>
     <FlowPane layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="572.0">
       <children>
@@ -56,7 +57,7 @@
             </VBox>
             <GridPane alignment="CENTER" prefHeight="190.0" prefWidth="481.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
               <children>
-                <Text fx:id="text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                <Text fx:id="text" strokeType="OUTSIDE" strokeWidth="0.0" text="" GridPane.columnIndex="0" GridPane.rowIndex="1" />
                 <Button mnemonicParsing="false" onAction="#callToRepeat" text="Next Objective" GridPane.columnIndex="0" GridPane.rowIndex="4" />
               </children>
               <columnConstraints>
@@ -93,4 +94,7 @@
       </children>
     </FlowPane>
   </children>
+  <stylesheets>
+    <URL value="@main.css" />
+  </stylesheets>
 </AnchorPane>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?import java.lang.*?>
+<?import java.net.*?>
+<?import java.net.URL?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
@@ -7,21 +10,21 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.shape.*?>
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Scenes.introController">
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Scenes.introController">
   <children>
     <GridPane alignment="CENTER" hgap="0.0" maxHeight="-1.0" maxWidth="-1.0" minHeight="-1.0" minWidth="-1.0" prefHeight="100.0" prefWidth="200.0" vgap="0.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="10.0">
       <children>
-        <Rectangle arcHeight="10.0" arcWidth="3.0" height="50.184326171875" opacity="0.29" stroke="BLACK" strokeType="INSIDE" width="580.0" GridPane.columnIndex="0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
-          <fill>
-            <Color blue="1.000" green="0.639" red="0.000" fx:id="x3" />
-          </fill>
-        </Rectangle>
         <ImageView fitHeight="43.382720947265625" fitWidth="193.9998779296875" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.valignment="TOP">
           <image>
             <Image url="@../transparnntbluemangoes.png" />
           </image>
         </ImageView>
-        <Button fx:id="enterButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#saveUserInfo" text="Login" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+        <Button fx:id="enterButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#saveUserInfo" style="" text="Login" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+          <stylesheets>
+            <URL value="@main.css" />
+          </stylesheets>
+        </Button>
         <TextField fx:id="userBox" prefWidth="200.0" promptText="Enter your name here" GridPane.columnIndex="1" GridPane.rowIndex="2" />
         <ImageView fitHeight="100.42103576660156" fitWidth="103.13511937805701" pickOnBounds="true" preserveRatio="true" rotate="0.0" smooth="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER">
           <image>
@@ -41,6 +44,12 @@
         <RowConstraints maxHeight="76.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
         <RowConstraints maxHeight="123.0" minHeight="10.0" prefHeight="112.0" vgrow="SOMETIMES" />
       </rowConstraints>
+      <stylesheets>
+        <URL value="@main.css" />
+      </stylesheets>
     </GridPane>
   </children>
+  <stylesheets>
+    <URL value="@main.css" />
+  </stylesheets>
 </AnchorPane>
