@@ -1,18 +1,25 @@
 package Scenes;
 
 import javafx.event.ActionEvent;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.fxml.FXML;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.GridPane;
 
 public class ObjectiveController {
     private MediaTests mt = new MediaTests();
-    @FXML Button videoButton;
+    @FXML Button videoButton = new Button();
+    @FXML ImageView bmImage;
+    @FXML GridPane largeGrid;
 
-    public void initialize(MediaTests mediatest) {
+    public void initialize(MediaTests mediatest, Scene scene) {
         mt = mediatest; //assign the reference of mediatest to mt
+        largeGrid.minHeightProperty().bind(scene.heightProperty());
+        largeGrid.minWidthProperty().bind(scene.widthProperty());
         System.out.println("Started the objective controller");
     }
-    //TODO Convert sidebar to not buttons -- text instead
 
     public void callToVideo(ActionEvent actionEvent) {
         System.out.println("No problems with pressing button...");

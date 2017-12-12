@@ -13,15 +13,15 @@
   <children>
     <FlowPane layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="572.0">
       <children>
-        <GridPane prefHeight="364.0" prefWidth="572.0">
+        <GridPane fx:id="largeGrid" prefHeight="364.0" prefWidth="572.0">
           <children>
-            <ImageView fitHeight="39.35053821245034" fitWidth="220.4578399658203" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <ImageView fx:id="bmImage" fitHeight="39.35053821245034" fitWidth="220.4578399658203" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="LEFT" GridPane.rowIndex="0" GridPane.valignment="TOP">
               <image>
                 <Image url="@../transparnntbluemangoes.png" />
               </image>
             </ImageView>
             <Separator prefWidth="572.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-            <VBox alignment="CENTER" prefHeight="311.0" prefWidth="68.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <VBox alignment="CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="311.0" prefWidth="68.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
               <children>
                 <Text stroke="TRANSPARENT" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
                   <font>
@@ -45,10 +45,10 @@
               <children>
                 <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Objectives" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
                 <MediaView fitHeight="209.0" fitWidth="209.0" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
-                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Objective 1" GridPane.rowIndex="1" />
-                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Objective 2" GridPane.rowIndex="2" />
-                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Objective 3" GridPane.rowIndex="3" />
-                <Button mnemonicParsing="false" onAction="#callToVideo" text="Start Video" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Objective 1" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Objective 2" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Objective 3" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
+                <Button fx:id="videoButton" mnemonicParsing="false" onAction="#callToVideo" text="Start Video" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
               </children>
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -70,15 +70,15 @@
           </children>
           <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="285.0" minWidth="10.0" prefWidth="71.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="518.0" minWidth="10.0" prefWidth="501.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="501.0" />
           </columnConstraints>
           <padding>
             <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
           </padding>
           <rowConstraints>
-            <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="204.0" minHeight="3.0" prefHeight="18.0" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="322.0" minHeight="10.0" prefHeight="301.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="3.0" prefHeight="18.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="301.0" vgrow="SOMETIMES" />
           </rowConstraints>
         </GridPane>
       </children>

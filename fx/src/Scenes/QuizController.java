@@ -2,8 +2,10 @@ package Scenes;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
+import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 
 import java.awt.event.ActionEvent;
@@ -22,6 +24,7 @@ public class QuizController {
     @FXML private RadioButton answer4;
     @FXML Button button;
     @FXML Button nextButton;
+    @FXML GridPane largeGrid;
 
     private boolean wasSelected1 = false;
     private boolean wasSelected2 = false;
@@ -36,9 +39,12 @@ public class QuizController {
     private String reasons[] = new String[4];
     private int totalQ = 0;
 
-    public void initialize(MediaTests mediaTests, String quizPath) {
+    public void initialize(MediaTests mediaTests, String quizPath, Scene scene) {
         path = quizPath;
         mt = mediaTests;
+        largeGrid.minHeightProperty().bind(scene.heightProperty());
+        largeGrid.minWidthProperty().bind(scene.widthProperty());
+
         System.out.println("Started the quiz controller");
         nextButton.setText("Next Question");
 

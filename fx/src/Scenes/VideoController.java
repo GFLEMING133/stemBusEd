@@ -3,6 +3,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.geometry.Rectangle2D;
+import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
@@ -25,6 +26,7 @@ public class VideoController {
     @FXML Button quizButton;
     @FXML Button playButton;
     @FXML ImageView imView = new ImageView();
+    @FXML GridPane largeGrid;
 
     Timer t1 = new Timer();
     MyTimerClass time;
@@ -34,9 +36,11 @@ public class VideoController {
     double totalTime = 0;
     double pauseTime = 0;
 
-    public void initialize(MediaTests mediaTests, String videoPath, String imagePath) {
+    public void initialize(MediaTests mediaTests, String videoPath, String imagePath, Scene scene) {
         Image image = new Image(Paths.get(imagePath).toUri().toString());
         imView.setImage(image);
+        largeGrid.minHeightProperty().bind(scene.heightProperty());
+        largeGrid.minWidthProperty().bind(scene.widthProperty());
 
         player = new MediaPlayer(new Media(Paths.get(videoPath).toUri().toString()));
         mt = mediaTests;

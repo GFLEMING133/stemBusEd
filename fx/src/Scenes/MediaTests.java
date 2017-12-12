@@ -36,29 +36,30 @@ public class MediaTests extends Application {
         getNewFileNames();
 
         primaryStage = primaryStage2;
+        introController controller = new introController();
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("IntroScene.fxml"));
             rootLayout = loader.load();
-            introController controller = loader.getController();
-            controller.initialize(this);
+            controller = loader.getController();
         }
         catch (Exception e) {
             System.out.println(e);
             e.printStackTrace();
         }
         Scene IntroScene = new Scene(rootLayout);
+        controller.initialize(this, IntroScene);
         primaryStage.setScene(IntroScene);
         primaryStage.show();
     }
 
     public void moveToObjectiveScene() {
+        ObjectiveController controller = new ObjectiveController();
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("ObjectiveScene.fxml"));
             objectiveRoot = loader.load();
-            ObjectiveController controller = loader.getController();
-            controller.initialize(this);
+            controller = loader.getController();
             // ^_^ remember that we have to pass in the mediatests object.
         }
         catch (Exception e) {
@@ -66,61 +67,61 @@ public class MediaTests extends Application {
             e.printStackTrace();
         }
         Scene ObjectiveScene = new Scene(objectiveRoot);
+        controller.initialize(this, ObjectiveScene);
         primaryStage.setScene(ObjectiveScene);
         primaryStage.show();
     }
 
     public void moveToVideoScene() {
+        VideoController controller = new VideoController();
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("VideoScene.fxml"));
             movieRoot = loader.load();
-            VideoController controller = loader.getController();
-            controller.initialize(this, videoPath, imagePath);
+            controller = loader.getController();
         }
         catch (Exception e) {
             System.out.println(e);
             e.printStackTrace();
         }
         Scene videoScene = new Scene(movieRoot);
+        controller.initialize(this, videoPath, imagePath, videoScene);
         primaryStage.setScene(videoScene);
         primaryStage.show();
     }
 
     public void moveToQuizScene() {
+        QuizController controller = new QuizController();
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("QuizScene.fxml"));
             quizRoot = loader.load();
-            QuizController controller = loader.getController();
-            controller.initialize(this, quizPath);
+            controller = loader.getController();
         }
         catch (Exception e) {
             System.out.println(e);
             e.printStackTrace();
         }
         Scene quizScene = new Scene(quizRoot);
+        controller.initialize(this, quizPath, quizScene);
         primaryStage.setScene(quizScene);
         primaryStage.show();
     }
 
-    public void moveToIntroScene() {
-        start(primaryStage);
-    }
-
     public void moveToResultsScene() {
+        ResultsController controller = new ResultsController();
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("ResultsScene.fxml"));
             resultsRoot = loader.load();
-            ResultsController controller = loader.getController();
-            controller.initialize(this);
+            controller = loader.getController();
         }
         catch (Exception e) {
             System.out.println(e);
             e.printStackTrace();
         }
         Scene resultsScene = new Scene(resultsRoot);
+        controller.initialize(this, resultsScene);
         primaryStage.setScene(resultsScene);
         primaryStage.show();
     }
@@ -150,19 +151,20 @@ public class MediaTests extends Application {
     }
 
     public void moveToEndScene() {
+        End controller = new End();
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("End.fxml"));
             endRoot = loader.load();
-            End controller = loader.getController();
-            controller.initialize(this);
+            controller = loader.getController();
         }
         catch (Exception e) {
             System.out.println(e);
             e.printStackTrace();
         }
-        Scene quizScene = new Scene(endRoot);
-        primaryStage.setScene(quizScene);
+        Scene endScene = new Scene(endRoot);
+        controller.initialize(this, endScene);
+        primaryStage.setScene(endScene);
         primaryStage.show();
     }
 

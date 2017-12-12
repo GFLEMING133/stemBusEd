@@ -11,11 +11,11 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.shape.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Scenes.introController">
+<AnchorPane fx:id="pane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Scenes.introController">
   <children>
-    <GridPane alignment="CENTER" hgap="0.0" maxHeight="-1.0" maxWidth="-1.0" minHeight="-1.0" minWidth="-1.0" prefHeight="100.0" prefWidth="200.0" vgap="0.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="10.0">
+    <GridPane fx:id="largeGrid" alignment="CENTER" hgap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" vgap="0.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="10.0">
       <children>
-        <ImageView fitHeight="43.382720947265625" fitWidth="193.9998779296875" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.valignment="TOP">
+        <ImageView fitHeight="43.382720947265625" fitWidth="193.9998779296875" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="LEFT" GridPane.rowIndex="0" GridPane.valignment="TOP">
           <image>
             <Image url="@../transparnntbluemangoes.png" />
           </image>
@@ -25,24 +25,24 @@
             <URL value="@main.css" />
           </stylesheets>
         </Button>
-        <TextField fx:id="userBox" prefWidth="200.0" promptText="Enter your name here" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-        <ImageView fitHeight="100.42103576660156" fitWidth="103.13511937805701" pickOnBounds="true" preserveRatio="true" rotate="0.0" smooth="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+        <TextField fx:id="userBox" prefWidth="200.0" promptText="Enter your name here" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+        <ImageView fitHeight="100.42103576660156" fitWidth="103.13511937805701" pickOnBounds="true" preserveRatio="true" rotate="0.0" smooth="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="0" GridPane.valignment="TOP">
           <image>
             <Image url="@../bluemango.png" />
           </image>
         </ImageView>
       </children>
       <columnConstraints>
-        <ColumnConstraints hgrow="SOMETIMES" maxWidth="194.0" minWidth="10.0" prefWidth="194.0" />
-        <ColumnConstraints hgrow="SOMETIMES" maxWidth="309.0" minWidth="10.0" prefWidth="190.0" />
-        <ColumnConstraints hgrow="SOMETIMES" maxWidth="218.0" minWidth="10.0" prefWidth="196.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="194.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="190.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="196.0" />
       </columnConstraints>
       <rowConstraints>
-        <RowConstraints maxHeight="108.0" minHeight="10.0" prefHeight="108.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="174.0" minHeight="10.0" prefHeight="94.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="133.0" minHeight="10.0" prefHeight="16.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="76.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="123.0" minHeight="10.0" prefHeight="112.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="108.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="94.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="16.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="112.0" vgrow="SOMETIMES" />
       </rowConstraints>
       <stylesheets>
         <URL value="@main.css" />
