@@ -51,6 +51,7 @@ public class MediaTests extends Application {
         controller.initialize(this, IntroScene);
         primaryStage.setScene(IntroScene);
         primaryStage.show();
+        primaryStage.setOnCloseRequest((event) -> {System.exit(0);});
     }
 
     public void moveToObjectiveScene() {
@@ -70,6 +71,7 @@ public class MediaTests extends Application {
         controller.initialize(this, ObjectiveScene);
         primaryStage.setScene(ObjectiveScene);
         primaryStage.show();
+        primaryStage.setOnCloseRequest((event) -> {System.exit(0);});
     }
 
     public void moveToVideoScene() {
@@ -88,6 +90,7 @@ public class MediaTests extends Application {
         controller.initialize(this, videoPath, imagePath, videoScene);
         primaryStage.setScene(videoScene);
         primaryStage.show();
+        primaryStage.setOnCloseRequest((event) -> {System.exit(0);});
     }
 
     public void moveToQuizScene() {
@@ -106,6 +109,7 @@ public class MediaTests extends Application {
         controller.initialize(this, quizPath, quizScene);
         primaryStage.setScene(quizScene);
         primaryStage.show();
+        primaryStage.setOnCloseRequest((event) -> {System.exit(0);});
     }
 
     public void moveToResultsScene() {
@@ -124,6 +128,7 @@ public class MediaTests extends Application {
         controller.initialize(this, resultsScene);
         primaryStage.setScene(resultsScene);
         primaryStage.show();
+        primaryStage.setOnCloseRequest((event) -> {System.exit(0);});
     }
 
     public boolean getNewFileNames() {
@@ -166,6 +171,7 @@ public class MediaTests extends Application {
         controller.initialize(this, endScene);
         primaryStage.setScene(endScene);
         primaryStage.show();
+        primaryStage.setOnCloseRequest((event) -> {System.exit(0);});
     }
 
     public void repeatProcess() {
